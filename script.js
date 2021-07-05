@@ -7,6 +7,7 @@ date.setAttribute("type", "date");
 
 var button = document.createElement("button");
 button.addEventListener("click", calculate);
+button.style.marginLeft = "1%";
 button.innerHTML = "Calculate!";
 
 document.body.append(date, button);
